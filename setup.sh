@@ -1,6 +1,9 @@
 #!/bin/bash
 
+## Update and install required packages
+
 sudo apt-get update --assume-yes
+sudo apt-get dist-upgrade --assume-yes
 sudo apt-get install openvpn nmap firefox xauth xorg git --assume-yes
 
 
@@ -8,7 +11,7 @@ sudo apt-get install openvpn nmap firefox xauth xorg git --assume-yes
 
 git clone https://github.com/ChrisTruncer/EyeWitness.git
 cd EyeWitness/setup
-sudo ./setup
+sudo ./setup.sh
 cd 
 
 ## Install Metaploit	
