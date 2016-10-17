@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update --assume-yes
-sudo apt-get install openvpn nmap firefox xauth xorg git rdesktop smbclient samba --assume-yes
+sudo apt-get install openvpn nmap firefox xauth xorg git rdesktop smbclient --assume-yes
 
 
 ## Install EyeWitnesss
